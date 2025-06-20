@@ -8,10 +8,10 @@
         "idx": 1,
         "version": "16.0.0-dev"
     },
-    "librebook": {
+    "libre": {
         "is_repo": true,
         "resolution": {
-            "commit_hash": "30dee102428135faf820f5bc636630a4fd51be9c",
+            "commit_hash": "1716f333f7915c3ad5b864c510e3ded0cd834407",
             "branch": "develop"
         },
         "required": [],

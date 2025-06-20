@@ -57,3 +57,28 @@
 2025-06-20 07:10:53,290 INFO /home/evandro/.local/bin/bench serve --port 8080
 2025-06-20 07:10:53,424 INFO /home/evandro/.local/bin/bench schedule
 2025-06-20 07:10:53,688 INFO /home/evandro/.local/bin/bench worker
+2025-06-20 20:02:55,443 INFO /home/evandro/.local/bin/bench start
+2025-06-20 20:02:56,014 INFO /home/evandro/.local/bin/bench watch
+2025-06-20 20:02:56,095 INFO /home/evandro/.local/bin/bench worker
+2025-06-20 20:02:56,173 INFO /home/evandro/.local/bin/bench serve --port 8080
+2025-06-20 20:02:56,272 INFO /home/evandro/.local/bin/bench schedule
+2025-06-20 20:59:19,453 INFO /home/evandro/.local/bin/bench new-app libre
+2025-06-20 20:59:19,499 LOG creating new app libre
+2025-06-20 21:00:04,054 LOG Installing libre
+2025-06-20 21:00:04,056 DEBUG cd /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook && /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/bin/python -m pip install --quiet --upgrade -e /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/libre 
+2025-06-20 21:00:07,098 DEBUG bench build --app libre
+2025-06-20 21:00:07,329 INFO /home/evandro/.local/bin/bench build --app libre
+2025-06-20 21:00:11,156 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 21:00:30,686 INFO /home/evandro/.local/bin/bench restart
+2025-06-20 21:00:31,055 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 21:02:34,590 INFO /home/evandro/.local/bin/bench new-site book.site
+2025-06-20 21:04:21,697 INFO /home/evandro/.local/bin/bench --site book.site add-to-hosts
+2025-06-20 21:05:28,681 INFO /home/evandro/.local/bin/bench --site book.site install-app libre
+2025-06-20 21:05:45,368 INFO /home/evandro/.local/bin/bench --site library.localhost list-apps
+2025-06-20 21:06:01,341 INFO /home/evandro/.local/bin/bench --site book.site list-apps
+2025-06-20 21:07:36,686 INFO /home/evandro/.local/bin/bench set-config -g developer_mode true
+2025-06-20 21:07:47,982 INFO /home/evandro/.local/bin/bench start
+2025-06-20 21:07:48,546 INFO /home/evandro/.local/bin/bench schedule
+2025-06-20 21:07:48,704 INFO /home/evandro/.local/bin/bench serve --port 8080
+2025-06-20 21:07:48,819 INFO /home/evandro/.local/bin/bench worker
+2025-06-20 21:07:49,105 INFO /home/evandro/.local/bin/bench watch
