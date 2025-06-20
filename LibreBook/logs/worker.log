@@ -1,0 +1,70 @@
+2025-06-20 07:09:33,813 Worker rq:worker:edb41ce7d57a4db7a923e6bc8ea99550 started with PID 133964, version 2.4.0
+2025-06-20 07:09:33,813 Subscribing to channel rq:pubsub:edb41ce7d57a4db7a923e6bc8ea99550
+2025-06-20 07:09:33,815 *** Listening on home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long...
+2025-06-20 07:09:33,815 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short
+2025-06-20 07:09:33,817 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default
+2025-06-20 07:09:33,820 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long
+2025-06-20 07:09:34,868 Worker edb41ce7d57a4db7a923e6bc8ea99550 [PID 133964]: warm shut down requested
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 644, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/_parsers/hiredis.py", line 158, in read_response
+    self.read_from_socket()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/_parsers/hiredis.py", line 108, in read_from_socket
+    bufflen = self._sock.recv_into(self._buffer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/background_jobs.py", line 352, in start_worker
+    worker.work(
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 646, in work
+    self.teardown()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 1147, in teardown
+    self.register_death()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 894, in register_death
+    p.execute()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/client.py", line 1607, in execute
+    conn = self.connection_pool.get_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/utils.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 1530, in get_connection
+    connection.connect()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 397, in connect_check_health
+    self.on_connect_check_health(check_health=check_health)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 517, in on_connect_check_health
+    self.read_response()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 652, in read_response
+    raise ConnectionError(f"Error while reading from {host_error} : {e.args}")
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
+
+Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
+2025-06-20 07:10:54,722 Worker rq:worker:70f035753874430d8309f77c89ffa53d started with PID 135554, version 2.4.0
+2025-06-20 07:10:54,723 Subscribing to channel rq:pubsub:70f035753874430d8309f77c89ffa53d
+2025-06-20 07:10:54,726 *** Listening on home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long...
+2025-06-20 07:10:54,727 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short
+2025-06-20 07:10:54,731 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default
+2025-06-20 07:10:54,734 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long
+2025-06-20 07:12:04,664 Worker 70f035753874430d8309f77c89ffa53d [PID 135554]: warm shut down requested
+2025-06-20 07:12:04,674 Unsubscribing from channel rq:pubsub:70f035753874430d8309f77c89ffa53d

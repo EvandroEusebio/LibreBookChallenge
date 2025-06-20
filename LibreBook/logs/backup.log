@@ -1,0 +1,4 @@
+Usage: bench  backup [OPTIONS]
+Try 'bench  backup --help' for help.
+
+Error: Please specify --site sitename

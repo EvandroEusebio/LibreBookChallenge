@@ -12,3 +12,48 @@
 2025-06-18 23:33:36,430 LOG backups were set up
 2025-06-18 23:33:36,430 INFO Bench LibreBook initialized
 2025-06-18 23:33:36,775 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-19 00:00:02,055 INFO /home/evandro/.local/bin/bench --verbose --site all backup
+2025-06-19 23:29:54,189 INFO /home/evandro/.local/bin/bench new-app librebook
+2025-06-19 23:29:54,198 LOG creating new app librebook
+2025-06-19 23:30:54,440 LOG Installing librebook
+2025-06-19 23:30:54,441 DEBUG cd /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook && /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/bin/python -m pip install --quiet --upgrade -e /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/librebook 
+2025-06-19 23:30:57,653 DEBUG bench build --app librebook
+2025-06-19 23:30:57,847 INFO /home/evandro/.local/bin/bench build --app librebook
+2025-06-19 23:31:01,447 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-19 23:33:50,512 INFO /home/evandro/.local/bin/bench new-site book.site
+2025-06-19 23:36:10,838 INFO /home/evandro/.local/bin/bench --site book.site install-app librebook
+2025-06-19 23:37:06,513 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:37:53,841 INFO /home/evandro/.local/bin/bench --site book.site add-to-hosts
+2025-06-19 23:38:16,269 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:40:11,790 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:41:24,874 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:41:45,781 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:44:59,505 INFO /home/evandro/.local/bin/bench start
+2025-06-19 23:45:21,376 INFO /home/evandro/.local/bin/bench --site book.site install-app librebook
+2025-06-19 23:45:59,324 INFO /home/evandro/.local/bin/bench --site book.site install-app librebook
+2025-06-19 23:46:22,152 INFO /home/evandro/.local/bin/bench --site book.site install-app librebook
+2025-06-20 06:57:06,199 INFO /home/evandro/.local/bin/bench --site book.site install-app librebook
+2025-06-20 06:57:14,827 INFO /home/evandro/.local/bin/bench start
+2025-06-20 06:57:39,113 INFO /home/evandro/.local/bin/bench start
+2025-06-20 06:58:11,366 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:05:29,943 INFO /home/evandro/.local/bin/bench restart
+2025-06-20 07:05:30,375 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 07:05:39,483 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:06:28,116 INFO /home/evandro/.local/bin/bench restart
+2025-06-20 07:06:28,598 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 07:06:30,592 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:07:37,373 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:09:27,166 INFO /home/evandro/.local/bin/bench restart
+2025-06-20 07:09:27,537 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 07:09:31,602 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:09:32,267 INFO /home/evandro/.local/bin/bench serve --port 8000
+2025-06-20 07:09:32,424 INFO /home/evandro/.local/bin/bench watch
+2025-06-20 07:09:32,513 INFO /home/evandro/.local/bin/bench schedule
+2025-06-20 07:09:32,663 INFO /home/evandro/.local/bin/bench worker
+2025-06-20 07:10:49,188 INFO /home/evandro/.local/bin/bench restart
+2025-06-20 07:10:49,569 INFO A newer version of bench is available: 5.25.4 → 5.25.5
+2025-06-20 07:10:52,592 INFO /home/evandro/.local/bin/bench start
+2025-06-20 07:10:53,092 INFO /home/evandro/.local/bin/bench watch
+2025-06-20 07:10:53,290 INFO /home/evandro/.local/bin/bench serve --port 8080
+2025-06-20 07:10:53,424 INFO /home/evandro/.local/bin/bench schedule
+2025-06-20 07:10:53,688 INFO /home/evandro/.local/bin/bench worker

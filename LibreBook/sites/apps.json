@@ -7,5 +7,15 @@
         "required": [],
         "idx": 1,
         "version": "16.0.0-dev"
+    },
+    "librebook": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "30dee102428135faf820f5bc636630a4fd51be9c",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
     }
 }

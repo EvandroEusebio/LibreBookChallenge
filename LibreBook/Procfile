@@ -3,7 +3,7 @@ redis_cache: redis-server config/redis_cache.conf
 redis_queue: redis-server config/redis_queue.conf
 
 
-web: bench serve  --port 8000
+web: bench serve  --port 8080
 
 
 socketio: /home/evandro/.nvm/versions/node/v22.11.0/bin/node apps/frappe/socketio.js
