@@ -1,3 +1,260 @@
-2025-06-20 21:20:25,630 ERROR frappe New Exception collected in error log
+2025-06-20 22:47:07,532 ERROR frappe New Exception collected in error log
 Site: book.site
-Form Dict: {'doc': '{"name":"BookChapter","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Libre","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":1,"allow_guest_to_view":1,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"45b6tmjfv6","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":1,"label":"RefBookProject","fieldtype":"Link","fieldname":"refbookprojectrefbookproject","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"BookProject","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookChapter","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"5idp3asvib","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":2,"label":"Titulo","fieldtype":"Data","fieldname":"titulo","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":1,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":1,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookChapter","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"5idds6admq","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":3,"label":"Ordem","fieldtype":"Data","fieldname":"ordem","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookChapter","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"5idfjhbj81","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":4,"label":"Conteudo","fieldtype":"Markdown Editor","fieldname":"conteudo","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookChapter","parentfield":"fields","parenttype":"DocType","doctype":"DocField"}],"permissions":[{"name":"45bkuer7hu","owner":"Administrator","creation":"2025-06-20 21:16:42.760341","modified":"2025-06-20 21:19:06.965006","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"BookChapter","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Form Dict: {'doc': '{"name":"BookProject","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"By fieldname","autoname":"field:titulo","allow_rename":1,"module":"Libre","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":1,"allow_guest_to_view":1,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"vlj7m0un2i","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":1,"label":"Titulo","fieldtype":"Data","fieldname":"titulo","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":1,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":1,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":1,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookProject","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"19318g270v","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":2,"label":"Descricao","fieldtype":"Text","fieldname":"descricao","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookProject","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"193su1ofau","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":3,"label":"Data de criacao","fieldtype":"Date","fieldname":"data_de_criacao","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookProject","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"193pstcd1p","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":4,"label":"Autor","fieldtype":"Link","fieldname":"autor","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"User","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookProject","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"193c5rv8lg","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":5,"label":"Status","fieldtype":"Select","fieldname":"status","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"rascunho\\npublicado","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"BookProject","parentfield":"fields","parenttype":"DocType","doctype":"DocField"}],"permissions":[{"name":"vljmoqbuph","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"BookProject","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"},{"name":"j39suje9ds","owner":"Administrator","creation":"2025-06-20 21:09:02.779119","modified":"2025-06-20 22:38:07.597453","modified_by":"Administrator","docstatus":0,"idx":2,"role":"Guest","if_owner":1,"permlevel":0,"select":0,"read":1,"write":0,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"BookProject","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1,"route":"project","is_published_field":""}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-06-20 23:24:53,445 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.www.login.send_login_link', 'email': 'comercial@salesagents45.ao'}
+2025-06-20 23:25:00,320 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.www.login.send_login_link', 'email': 'martinsnzuanga10@gmail.com'}
+2025-06-20 23:25:41,194 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.www.login.send_login_link', 'email': 'guest@example.com'}
+2025-06-21 00:09:20,755 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'Workspace Settings', 'name': 'Workspace Settings', 'cmd': 'frappe.client.get'}
+2025-06-21 07:57:43,791 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"evandroivandro65@gmail.com","owner":"Administrator","creation":"2025-06-21 07:56:33.423329","modified":"2025-06-21 07:57:13.103450","modified_by":"Administrator","docstatus":0,"idx":0,"enabled":1,"email":"evandroivandro65@gmail.com","first_name":"ee","full_name":"ee","username":"ee","language":"en","time_zone":"Africa/Luanda","send_welcome_email":1,"unsubscribed":0,"mute_sounds":0,"desk_theme":"Light","code_editor_type":"vscode","search_bar":1,"notifications":1,"list_sidebar":1,"bulk_actions":1,"view_switcher":1,"form_sidebar":1,"timeline":1,"dashboard":1,"show_absolute_datetime_in_timeline":0,"new_password":"","logout_all_sessions":1,"reset_password_key":"a4219ba84cf6d1e0946ec77d0cec702775e676c4a0c1d475c52d305b0dc07df6","last_reset_password_key_generated_on":"2025-06-21 07:56:33.552253","document_follow_notify":0,"document_follow_frequency":"Daily","follow_created_documents":0,"follow_commented_documents":0,"follow_liked_documents":0,"follow_assigned_documents":0,"follow_shared_documents":0,"thread_notify":1,"send_me_a_copy":0,"allowed_in_mentions":1,"simultaneous_sessions":2,"login_after":0,"user_type":"Website User","login_before":0,"bypass_restrict_ip_check_if_2fa_enabled":0,"onboarding_status":"{}","doctype":"User","role_profiles":[{"docstatus":0,"doctype":"User Role Profile","name":"new-user-role-profile-cbdfjzcvje","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"evandroivandro65@gmail.com","parentfield":"role_profiles","parenttype":"User","idx":1,"role_profile":"web"}],"roles":[],"block_modules":[],"user_emails":[],"defaults":[],"social_logins":[{"name":"r2eu0deq2q","owner":"Administrator","creation":"2025-06-21 07:56:33.474176","modified":"2025-06-21 07:57:13.103450","modified_by":"Administrator","docstatus":0,"idx":1,"provider":"frappe","userid":"20d92dd5c424b7f3bf8e5bb7ef7340a258696f9","parent":"evandroivandro65@gmail.com","parentfield":"social_logins","parenttype":"User","doctype":"User Social Login"}],"__onload":{"all_modules":["Automation","Contacts","Core","Custom","Desk","Email","Geo","Integrations","Libre","Printing","Website","Workflow"]},"__last_sync_on":"2025-06-21T06:57:17.588Z","__unsaved":1}', 'method': 'populate_role_profile_roles', 'cmd': 'run_doc_method'}
+2025-06-21 07:58:27,997 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'routes': '[{"creation":"2025-06-21 07:58:17","route":"Workspaces/Users"},{"creation":"2025-06-21 07:58:17","route":"List/User/List"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-06-21 09:00:24,472 ERROR frappe Failed to run after request hook
+Site: book.site
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 95, in application
+    init_request(request)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 192, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1336, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1302, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1169, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/hooks.py", line 34, in <module>
+    "disable_signup": true,
+                      ^^^^
+NameError: name 'true' is not defined. Did you mean: 'True'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 129, in application
+    response = e.get_response(request.environ) if isinstance(e, HTTPException) else handle_exception(e)
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/permissions.py", line 879, in wrapper
+    return fn(e, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 377, in handle_exception
+    ).render()
+      ^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+           ^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/utils.py", line 536, in cache_html_decorator
+    html = func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+            ^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1336, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1302, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1169, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/hooks.py", line 34, in <module>
+    "disable_signup": true,
+                      ^^^^
+NameError: name 'true' is not defined. Did you mean: 'True'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 142, in application
+    run_after_request_hooks(request, response)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/app.py", line 157, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1336, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1302, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/__init__.py", line 1169, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/hooks.py", line 34, in <module>
+    "disable_signup": true,
+                      ^^^^
+NameError: name 'true' is not defined. Did you mean: 'True'?
+2025-06-21 09:21:46,048 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"Customize Form","owner":"Administrator","docstatus":0,"idx":0,"grid_page_length":0,"istable":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":1,"track_changes":0,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"queue_in_background":0,"naming_rule":"","max_attachments":0,"allow_copy":0,"make_attachments_public":0,"protect_attached_files":0,"show_title_field_in_link":0,"translated_doctype":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"ASC","doctype":"Customize Form","actions":[],"links":[],"states":[],"fields":[],"__unsaved":1,"__last_sync_on":"2025-06-21T08:21:44.785Z","doc_type":"User"}', 'method': 'fetch_to_customize', 'cmd': 'run_doc_method'}
+2025-06-21 10:19:59,518 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"Customize Form","owner":"Administrator","docstatus":0,"idx":0,"grid_page_length":0,"istable":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":1,"track_changes":0,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"queue_in_background":0,"naming_rule":"","max_attachments":0,"allow_copy":0,"make_attachments_public":0,"protect_attached_files":0,"show_title_field_in_link":0,"translated_doctype":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"ASC","doctype":"Customize Form","actions":[],"links":[],"states":[],"fields":[],"__unsaved":1,"__last_sync_on":"2025-06-21T09:19:58.185Z","doc_type":"User"}', 'method': 'fetch_to_customize', 'cmd': 'run_doc_method'}
+2025-06-21 10:59:34,359 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivan65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:00:19,584 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroiva5@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:00:21,368 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroiva5@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:00:21,972 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroiva5@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:03:03,859 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercial@salesagents45.ao', 'redirect_to': '', 'full_name': 'RM & AC- Comercio e Prestação de Serviço'}
+2025-06-21 11:03:22,441 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercl@salesagents45.ao', 'redirect_to': '', 'full_name': 'RM & AC- Comercio e Prestação de Serviço'}
+2025-06-21 11:03:26,065 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercl@salesagents45.ao', 'redirect_to': '', 'full_name': 'RM & AC- Comercio e Prestação de Serviço'}
+2025-06-21 11:03:26,695 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercl@salesagents45.ao', 'redirect_to': '', 'full_name': 'RM & AC- Comercio e Prestação de Serviço'}
+2025-06-21 11:03:30,645 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercl@salesagents45.ao', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:03:42,424 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'jane@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:03:44,006 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'jane@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 11:03:44,468 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'jane@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:00:57,985 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA'}
+2025-06-21 12:01:07,678 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA'}
+2025-06-21 12:01:15,220 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA'}
+2025-06-21 12:01:17,882 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA'}
+2025-06-21 12:29:52,172 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:29:53,261 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:29:53,761 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:32:58,940 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'martinsnzuanga10@gmail.com', 'redirect_to': '', 'full_name': 'Adolfo Martins'}
+2025-06-21 12:33:14,358 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'martinsnzuanga10@gmail.com', 'redirect_to': '', 'full_name': 'Adolfo Martins'}
+2025-06-21 12:33:16,326 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'martinsnzuanga10@gmail.com', 'redirect_to': '', 'full_name': 'Adolfo Martins'}
+2025-06-21 12:34:05,180 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:34:34,162 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:34:35,562 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:34:36,230 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:34:36,681 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 12:34:37,164 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivandro65@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio'}
+2025-06-21 14:00:08,714 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ggg@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio', 'new_password': '********'}
+2025-06-21 14:02:14,589 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ggg@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio', 'new_password': '********'}
+2025-06-21 14:02:17,442 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ggg@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio', 'new_password': '********'}
+2025-06-21 14:02:18,096 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ggg@gmail.com', 'redirect_to': '', 'full_name': 'Evandro Eusébio', 'new_password': '********'}
+2025-06-21 22:55:20,815 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doc': '{"name":"Portal Settings","owner":"Administrator","modified":"2025-06-21 01:33:13.370391","modified_by":"Administrator","docstatus":0,"idx":"0","hide_standard_menu":0,"doctype":"Portal Settings","menu":[],"custom_menu":[],"__last_sync_on":"2025-06-21T21:51:52.825Z","default_portal_home":"/home","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-06-22 21:02:11,288 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'name': 'book-project', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-06-22 22:37:15,716 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"Customize Form","grid_page_length":50,"istable":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"track_changes":0,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"queue_in_background":0,"naming_rule":"By fieldname","max_attachments":0,"allow_copy":0,"make_attachments_public":0,"protect_attached_files":0,"show_title_field_in_link":0,"translated_doctype":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","actions":[],"links":[],"states":[],"fields":[{"name":"vlj7m0un2i","docstatus":0,"idx":1,"is_system_generated":0,"label":"Titulo","fieldtype":"Data","fieldname":"titulo","non_negative":0,"reqd":1,"unique":1,"is_virtual":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"19318g270v","docstatus":0,"idx":2,"is_system_generated":0,"label":"Descricao","fieldtype":"Text","fieldname":"descricao","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193su1ofau","docstatus":0,"idx":3,"is_system_generated":0,"label":"Data de criacao","fieldtype":"Date","fieldname":"data_de_criacao","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193pstcd1p","docstatus":0,"idx":4,"is_system_generated":0,"label":"Autor","fieldtype":"Link","fieldname":"autor","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"User","sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193c5rv8lg","docstatus":0,"idx":5,"is_system_generated":0,"label":"Status","fieldtype":"Select","fieldname":"status","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"rascunho\\npublicado","sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"8ahloh3f09","docstatus":0,"idx":6,"is_system_generated":0,"label":"published","fieldtype":"Check","fieldname":"published","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"8ahfp43cjv","docstatus":0,"idx":7,"is_system_generated":0,"label":"route","fieldtype":"Data","fieldname":"route","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"}],"__unsaved":1,"doc_type":"BookProject","label":"","autoname":"field:titulo","sort_field":"creation","title_field":"Meus projectos"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2025-06-22 22:39:35,096 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"Customize Form","grid_page_length":50,"istable":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"track_changes":0,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"queue_in_background":0,"naming_rule":"By fieldname","max_attachments":0,"allow_copy":0,"make_attachments_public":0,"protect_attached_files":0,"show_title_field_in_link":0,"translated_doctype":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","actions":[],"links":[],"states":[],"fields":[{"name":"vlj7m0un2i","docstatus":0,"idx":1,"is_system_generated":0,"label":"Titulo","fieldtype":"Data","fieldname":"titulo","non_negative":0,"reqd":1,"unique":1,"is_virtual":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"19318g270v","docstatus":0,"idx":2,"is_system_generated":0,"label":"Descricao","fieldtype":"Text","fieldname":"descricao","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193su1ofau","docstatus":0,"idx":3,"is_system_generated":0,"label":"Data de criacao","fieldtype":"Date","fieldname":"data_de_criacao","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193pstcd1p","docstatus":0,"idx":4,"is_system_generated":0,"label":"Autor","fieldtype":"Link","fieldname":"autor","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"User","sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"193c5rv8lg","docstatus":0,"idx":5,"is_system_generated":0,"label":"Status","fieldtype":"Select","fieldname":"status","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"rascunho\\npublicado","sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"8ahloh3f09","docstatus":0,"idx":6,"is_system_generated":0,"label":"published","fieldtype":"Check","fieldname":"published","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"},{"name":"8ahfp43cjv","docstatus":0,"idx":7,"is_system_generated":0,"label":"route","fieldtype":"Data","fieldname":"route","non_negative":0,"reqd":0,"unique":0,"is_virtual":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"no_copy":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"sort_options":0,"fetch_if_empty":0,"show_dashboard":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"ignore_xss_filter":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","doctype":"Customize Form Field"}],"__unsaved":1,"doc_type":"BookProject","label":"","autoname":"field:titulo","sort_field":"creation","title_field":"Meus projectos"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2025-06-22 23:59:53,293 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'name': 'book-project', 'cmd': 'frappe.desk.desk_page.getpage'}

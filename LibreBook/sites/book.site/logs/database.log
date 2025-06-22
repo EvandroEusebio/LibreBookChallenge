@@ -2715,3 +2715,25 @@ index creation(creation))
 			COLLATE=utf8mb4_unicode_ci
 2025-06-20 21:19:07,092 WARNING database DDL Query made to DB:
 ALTER TABLE `tabBookChapter` ADD COLUMN `refbookprojectrefbookproject` varchar(140), ADD COLUMN `titulo` varchar(140), ADD COLUMN `ordem` varchar(140), ADD COLUMN `conteudo` longtext
+2025-06-20 21:31:52,995 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` ADD UNIQUE INDEX IF NOT EXISTS titulo (`titulo`)
+2025-06-20 23:13:02,674 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` ADD COLUMN `published` tinyint NOT NULL DEFAULT 0, ADD COLUMN `route` varchar(140)
+2025-06-20 23:13:56,724 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 20:06:59,793 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 20:07:31,032 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 20:07:31,032 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 22:25:58,149 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 22:28:47,635 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 22:39:15,413 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` ADD COLUMN `title` varchar(140)
+2025-06-22 22:39:15,429 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2025-06-22 23:41:53,716 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0

@@ -1,0 +1,1 @@
+2025-06-21 12:12:00,551 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for book.site
