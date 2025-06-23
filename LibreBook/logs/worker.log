@@ -10822,3 +10822,129 @@ Error 111 connecting to 127.0.0.1:11000. Connection refused.
 2025-06-24 00:00:23,044 Result is kept for 600 seconds
 2025-06-24 00:00:41,486 Worker 0e40008c88e745fa9e39483b9763889a [PID 53752]: warm shut down requested
 2025-06-24 00:00:41,503 Unsubscribing from channel rq:pubsub:0e40008c88e745fa9e39483b9763889a
+2025-06-24 00:01:35,971 Worker rq:worker:d3ac52eeaf7b4a19893624cd0ed793af started with PID 122556, version 2.4.0
+2025-06-24 00:01:35,971 Subscribing to channel rq:pubsub:d3ac52eeaf7b4a19893624cd0ed793af
+2025-06-24 00:01:35,974 *** Listening on home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long...
+2025-06-24 00:01:35,975 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short
+2025-06-24 00:01:35,978 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default
+2025-06-24 00:01:35,980 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long
+2025-06-24 00:02:47,209 Worker d3ac52eeaf7b4a19893624cd0ed793af [PID 122556]: warm shut down requested
+2025-06-24 00:02:47,239 Unsubscribing from channel rq:pubsub:d3ac52eeaf7b4a19893624cd0ed793af
+2025-06-24 00:10:27,991 Worker rq:worker:0cad4dfdb8c5418a9a4c2cad9094f928 started with PID 15715, version 2.4.0
+2025-06-24 00:10:27,994 Subscribing to channel rq:pubsub:0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:10:28,002 *** Listening on home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default, home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long...
+2025-06-24 00:10:28,004 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:short
+2025-06-24 00:10:28,019 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default
+2025-06-24 00:10:28,026 Cleaning registries for queue: home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:long
+2025-06-24 00:12:00,836 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0vnlcld0)
+2025-06-24 00:12:01,367 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.495754s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:12:01,367 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0vnlcld0)
+2025-06-24 00:12:01,367 Result is kept for 600 seconds
+2025-06-24 00:12:01,375 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'sd0mjit35n'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0mjit35n)
+2025-06-24 00:12:02,068 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'sd0mjit35n'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.682786s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:12:02,068 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0mjit35n)
+2025-06-24 00:12:02,068 Result is kept for 600 seconds
+2025-06-24 00:12:02,078 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'sd0glugkge'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0glugkge)
+2025-06-24 00:12:02,528 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'sd0glugkge'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.442027s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:12:02,529 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0glugkge)
+2025-06-24 00:12:02,529 Result is kept for 600 seconds
+2025-06-24 00:12:02,536 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0j825isu)
+2025-06-24 00:12:03,200 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.655552s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:12:03,200 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0j825isu)
+2025-06-24 00:12:03,200 Result is kept for 600 seconds
+2025-06-24 00:12:03,210 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0jjarc7u)
+2025-06-24 00:12:03,798 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.579737s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:12:03,798 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0jjarc7u)
+2025-06-24 00:12:03,798 Result is kept for 600 seconds
+2025-06-24 00:16:00,871 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd00otp8rn)
+2025-06-24 00:16:01,362 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.470135s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:01,362 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd00otp8rn)
+2025-06-24 00:16:01,363 Result is kept for 600 seconds
+2025-06-24 00:16:01,371 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd016llgue)
+2025-06-24 00:16:01,863 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.483593s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:01,863 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd016llgue)
+2025-06-24 00:16:01,863 Result is kept for 600 seconds
+2025-06-24 00:16:01,871 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'sd0mjit35n'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0mjit35n)
+2025-06-24 00:16:02,484 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'sd0mjit35n'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.604165s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:02,484 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0mjit35n)
+2025-06-24 00:16:02,485 Result is kept for 600 seconds
+2025-06-24 00:16:02,493 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd01ormdqi)
+2025-06-24 00:16:03,039 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.534636s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:03,039 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd01ormdqi)
+2025-06-24 00:16:03,039 Result is kept for 600 seconds
+2025-06-24 00:16:03,047 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'sd..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0cs7a0uh)
+2025-06-24 00:16:03,569 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'sd..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.507790s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:03,570 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0cs7a0uh)
+2025-06-24 00:16:03,570 Result is kept for 600 seconds
+2025-06-24 00:16:03,577 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0j825isu)
+2025-06-24 00:16:04,202 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.616672s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:04,202 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0j825isu)
+2025-06-24 00:16:04,202 Result is kept for 600 seconds
+2025-06-24 00:16:04,210 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0vnlcld0)
+2025-06-24 00:16:04,717 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.493362s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:04,717 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0vnlcld0)
+2025-06-24 00:16:04,717 Result is kept for 600 seconds
+2025-06-24 00:16:04,724 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'sd0glugkge'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0glugkge)
+2025-06-24 00:16:05,233 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'sd0glugkge'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.500961s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:05,234 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0glugkge)
+2025-06-24 00:16:05,234 Result is kept for 600 seconds
+2025-06-24 00:16:05,241 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') (book.site||scheduled_job||sd0ngbjt35)
+2025-06-24 00:16:05,905 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='book.site', user='Administrator') job in 0:00:00.655566s on worker 0cad4dfdb8c5418a9a4c2cad9094f928
+2025-06-24 00:16:05,905 home-evandro-Documentos-MeusProjectos-LibreBookChallenge-LibreBook:default: Job OK (book.site||scheduled_job||sd0ngbjt35)
+2025-06-24 00:16:05,905 Result is kept for 600 seconds
+2025-06-24 00:19:13,768 Worker 0cad4dfdb8c5418a9a4c2cad9094f928 [PID 15715]: warm shut down requested
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 644, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/_parsers/hiredis.py", line 158, in read_response
+    self.read_from_socket()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/_parsers/hiredis.py", line 108, in read_from_socket
+    bufflen = self._sock.recv_into(self._buffer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/bench_helper.py", line 48, in invoke
+    return super().invoke(ctx)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/apps/frappe/frappe/utils/background_jobs.py", line 352, in start_worker
+    worker.work(
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 646, in work
+    self.teardown()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 1147, in teardown
+    self.register_death()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/rq/worker.py", line 894, in register_death
+    p.execute()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/client.py", line 1607, in execute
+    conn = self.connection_pool.get_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/utils.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 1530, in get_connection
+    connection.connect()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 397, in connect_check_health
+    self.on_connect_check_health(check_health=check_health)
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 530, in on_connect_check_health
+    self.read_response()
+  File "/home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/env/lib/python3.12/site-packages/redis/connection.py", line 652, in read_response
+    raise ConnectionError(f"Error while reading from {host_error} : {e.args}")
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
+
+Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
