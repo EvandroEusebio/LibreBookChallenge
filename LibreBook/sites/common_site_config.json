@@ -1,4 +1,5 @@
 {
+ "allow_signup": true,
  "background_workers": 1,
  "developer_mode": true,
  "file_watcher_port": 6787,
@@ -12,9 +13,9 @@
  "restart_supervisor_on_update": false,
  "restart_systemd_on_update": false,
  "serve_default_site": true,
+ "server_script_enabled": 1,
  "shallow_clone": true,
  "socketio_port": 9000,
  "use_redis_auth": false,
- "webserver_port": 8080,
- "allow_signup": true
+ "webserver_port": 8080
 }

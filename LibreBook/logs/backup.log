@@ -26,3 +26,9 @@ Backup Summary for book.site at 2025-06-23 00:00:05.115344
 Config  : /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/sites/book.site/private/backups/20250623_000003-book_site-site_config_backup.json 127.0B
 Database: /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/sites/book.site/private/backups/20250623_000003-book_site-database.sql.gz 278.5KiB
 Backup for Site book.site has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_94e45df585bb45a8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _94e45df585bb45a8 | /usr/bin/gzip >> ./book.site/private/backups/20250624_000002-book_site-database.sql.gz
+
+Backup Summary for book.site at 2025-06-24 00:00:03.895668
+Config  : /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/sites/book.site/private/backups/20250624_000002-book_site-site_config_backup.json 194.0B
+Database: /home/evandro/Documentos/MeusProjectos/LibreBookChallenge/LibreBook/sites/book.site/private/backups/20250624_000002-book_site-database.sql.gz 297.3KiB
+Backup for Site book.site has been successfully completed

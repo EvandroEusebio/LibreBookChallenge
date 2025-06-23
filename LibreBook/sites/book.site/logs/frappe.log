@@ -258,3 +258,228 @@ Form Dict: {'docs': '{"name":"Customize Form","grid_page_length":50,"istable":0,
 2025-06-22 23:59:53,293 ERROR frappe New Exception collected in error log
 Site: book.site
 Form Dict: {'name': 'book-project', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-06-23 08:34:54,679 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doc': '{"name":"Creator User","owner":"Administrator","creation":"2025-06-23 08:33:52.325775","modified":"2025-06-23 08:33:52.325775","modified_by":"Administrator","docstatus":0,"idx":0,"role_name":"Creator User","disabled":0,"is_custom":0,"desk_access":0,"two_factor_auth":0,"doctype":"Role","__last_sync_on":"2025-06-23T07:34:21.033Z","__unsaved":1,"home_page":"book"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-06-23 22:34:45,720 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:35:31,605 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:35:33,746 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:36:01,288 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:36:02,919 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:36:17,987 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:36:19,735 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:38:05,050 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:38:31,979 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:38:35,722 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:39:16,763 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:39:25,844 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:39:27,584 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:40:06,838 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:40:24,034 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:40:25,490 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00'}
+2025-06-23 22:41:33,041 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'librebook.api.get_full_book'}
+2025-06-23 22:42:04,532 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'librebook.api.get_full_book'}
+2025-06-23 22:42:06,007 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'librebook.api.get_full_book'}
+2025-06-23 22:42:15,871 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:42:37,558 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:42:50,559 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:44:31,831 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:47:20,789 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:47:27,401 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:50:37,659 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:51:10,181 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:51:11,485 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:51:12,822 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:51:31,623 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:52:04,555 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:52:06,786 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:52:07,707 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:52:08,631 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 22:59:28,566 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:04:16,035 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'title': 'Bater o sebacnstio', 'notes': 'cgac,cgagcjjzgcjgacgajs', 'color': '#ffffff', 'isFavorited': 1, 'createdAt': '2025-04-03T13:47:27.000+00:00', 'updatedAt': '2025-04-03T17:16:57.550+00:00', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:04:54,942 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'BOOKPROJECT-0001', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:05:16,093 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'BOOKPROJECT-0001', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:06:29,271 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:13:49,081 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:16:18,325 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:16:29,898 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:18:28,104 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'docs': '{"name":"Customize Form","owner":"Administrator","docstatus":0,"idx":0,"grid_page_length":0,"istable":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":1,"track_changes":0,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"queue_in_background":0,"naming_rule":"","max_attachments":0,"allow_copy":0,"make_attachments_public":0,"protect_attached_files":0,"show_title_field_in_link":0,"translated_doctype":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"ASC","doctype":"Customize Form","actions":[],"links":[],"states":[],"fields":[],"__unsaved":1,"__last_sync_on":"2025-06-23T22:18:26.774Z","doc_type":"User"}', 'method': 'fetch_to_customize', 'cmd': 'run_doc_method'}
+2025-06-23 23:27:33,633 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:28:54,076 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:29:33,508 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:29:41,212 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:30:33,972 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:30:35,326 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:36:51,950 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:36:54,715 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:36:57,714 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:36:58,958 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:38:23,445 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:39:07,658 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-06-23 23:40:57,950 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:41:16,473 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:41:44,163 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:41:45,931 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:42:52,280 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:43:02,207 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:43:04,411 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:43:05,622 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {}
+2025-06-23 23:43:43,140 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:44:11,265 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:44:17,745 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'cfkjdklfjlj', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:45:27,635 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'djkcxjcjx', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:46:59,349 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'djkcxjcjx', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:47:28,869 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'djkcxjcjx', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:48:16,691 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'djkcxjcjx', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:53:59,159 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'BookChapter', 'name': 'g21nn2ck5d', 'cmd': 'frappe.client.delete'}
+2025-06-23 23:56:18,904 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual_de_Climatização', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:57:32,093 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'ManualdeClimatização', 'cmd': 'libre.api.get_full_book'}
+2025-06-23 23:57:44,719 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'manualDeClimatização', 'cmd': 'libre.api.get_full_book'}
