@@ -2102,3 +2102,5 @@ ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
 ALTER TABLE `tabBookProject` MODIFY `published` tinyint NOT NULL DEFAULT 0
 2025-06-23 23:53:39,759 WARNING database DDL Query made to DB:
 ALTER TABLE `tabBookChapter` ADD UNIQUE INDEX IF NOT EXISTS titulo (`titulo`)
+2025-06-24 20:58:09,341 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBookProject` MODIFY `autor` varchar(140) DEFAULT 'frappe.session.user', MODIFY `published` tinyint NOT NULL DEFAULT 0
