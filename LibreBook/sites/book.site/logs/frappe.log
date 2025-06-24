@@ -594,3 +594,51 @@ Form Dict: {'fields': '["name","filter_name","for_user","filters"]', 'filters': 
 2025-06-24 23:09:13,276 ERROR frappe New Exception collected in error log
 Site: book.site
 Form Dict: {'project_name': 'hfhffgg', 'title': 'sdfvdsfd', 'order': '1', 'content': 'fdsfdsfs', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:21:57,582 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'fssfgfgfgsdfg', 'order': '2', 'content': 'fsfsfsfsfsfsfsfhhdghdgdf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:22:19,622 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'fdgd', 'order': '1', 'content': 'gdg', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:23:40,044 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'dgdfg', 'order': '1', 'content': 'gfdgdf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:52:06,017 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'sdfdsf', 'order': '1', 'content': 'dfsffsf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:54:50,699 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'dgdf', 'order': '1', 'content': 'dfgdfg', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:55:58,084 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'bcvbcv', 'order': '1', 'content': 'cvbcvbcbc', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:56:29,283 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'nbvv', 'order': '4', 'content': 'nvnv', 'cmd': 'libre.api.create_chapter'}
+2025-06-25 00:01:13,065 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'fsdf', 'order': 'dsfsf', 'content': 'fdsfsf', 'cmd': 'libre.api.create_chapter'}
+2025-06-25 00:01:23,085 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'fghfgh', 'order': 'gfhf', 'content': 'fhfhhfh', 'cmd': 'libre.api.create_chapter'}
+2025-06-25 00:05:57,832 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'xvbx', 'order': 'vxvx', 'content': 'cvbxvxc', 'cmd': 'libre.api.create_chapter'}
+2025-06-25 00:07:25,123 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'fields': '["name","filter_name","for_user","filters"]', 'filters': '{"reference_doctype":"User"}', 'or_filters': '[["for_user","=","Administrator"],["for_user","=",""]]', 'order_by': 'filter_name asc', 'doctype': 'List Filter', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2025-06-25 00:07:25,217 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'User', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-06-25 00:07:29,402 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'User', 'name': 'evandroivandro65@gmail.com', 'cmd': 'frappe.realtime.has_permission'}
+2025-06-25 00:07:29,635 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'User', 'name': 'evandroivandro65@gmail.com', 'cmd': 'frappe.realtime.has_permission'}
+2025-06-25 00:07:29,799 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'LDAP Settings', 'field': 'enabled', 'cmd': 'frappe.client.get_single_value'}
+2025-06-25 00:10:36,314 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de geografia', 'title': 'dvxv', 'order': 'vxv', 'content': 'cvxv', 'cmd': 'libre.api.create_chapter'}
