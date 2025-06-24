@@ -483,3 +483,27 @@ Form Dict: {'project_name': 'ManualdeClimatização', 'cmd': 'libre.api.get_full
 2025-06-23 23:57:44,719 ERROR frappe New Exception collected in error log
 Site: book.site
 Form Dict: {'project_name': 'manualDeClimatização', 'cmd': 'libre.api.get_full_book'}
+2025-06-24 00:53:11,763 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivaro65@gmail.com', 'redirect_to': '/mybooks', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA', 'password': '********'}
+2025-06-24 00:53:37,945 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evdroivaro65@gmail.com', 'redirect_to': '/mybooks', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA', 'password': '********'}
+2025-06-24 00:54:42,823 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'evandroivdro65@gmail.com', 'redirect_to': '/mybooks', 'full_name': 'Evandro Eusébio', 'password': '********'}
+2025-06-24 00:56:35,525 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercial@salesagents45.ao', 'redirect_to': '/mybooks', 'full_name': 'RM & AC- Comercio e Prestação de Serviço', 'password': '********'}
+2025-06-24 00:57:43,251 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'comercl@salesagents45.ao', 'redirect_to': '/mybooks', 'full_name': 'RM & AC- Comercio e Prestação de Serviço', 'password': '********'}
+2025-06-24 01:02:36,182 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'martinsnzuanga10@gmail.com', 'redirect_to': '/mybooks', 'full_name': 'Adolfo Martins', 'password': '********'}
+2025-06-24 01:05:37,966 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'ajfapplecontato@gmail.com', 'redirect_to': '/mybooks', 'full_name': 'A.J.FREITAS - COMERCIO E PRESTAÇAO DE SERVIÇOS,LDA', 'password': '********'}
+2025-06-24 08:21:50,923 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'name': 'book-project', 'cmd': 'frappe.desk.desk_page.getpage'}
