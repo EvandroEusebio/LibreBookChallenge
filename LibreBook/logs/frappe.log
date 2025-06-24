@@ -555,3 +555,42 @@ Form Dict: {'fields': '["name","filter_name","for_user","filters"]', 'filters': 
 2025-06-24 21:33:39,184 ERROR frappe New Exception collected in error log
 Site: book.site
 Form Dict: {'doctype': 'BookProject', 'cmd': 'frappe.core.doctype.doctype.doctype.get_row_size_utilization'}
+2025-06-24 22:47:05,219 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'Angola & Portugal', 'order': '3', 'content': '#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 22:47:46,563 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'sadadsdasd', 'order': '1', 'content': 'dasdada#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf#adhasdghdgshagdgdggdaadasgd&&&fhajdfkasaadadasdadadsadsgdgasdgasghfasgfdghaxdcfdgzfdfszdghzfgsfdfsghfdhgahsfdgsadfafdfafhdfafdgafdhafdafdhafdhafdhfahdfhafdhafhdfafdhafdhfahdfhafdhgfahdf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 22:56:49,497 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'None', 'title': 'dfsgsdg', 'order': '2', 'content': 'sdfdsfdsffs', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 22:57:14,222 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'gggf', 'order': '1', 'content': 'fgdfgd', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 22:59:27,919 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'dsd', 'order': '1', 'content': 'sad', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 22:59:48,344 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'fdgd', 'order': '1', 'content': 'dfgdg', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:03:05,801 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'dfgdf', 'order': '1', 'content': 'gdfgdfg', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:03:51,540 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'fdgdf', 'order': '1', 'content': 'fgdg', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:04:39,467 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'gdfgdf', 'order': '1', 'content': 'gdfgdf', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:05:40,133 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'Manual de História', 'title': 'cxvxcv', 'order': '1', 'content': 'cxvxv', 'cmd': 'libre.api.create_chapter'}
+2025-06-24 23:06:37,920 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'doctype': 'BookChapter', 'fields': '["`tabBookChapter`.`name`","`tabBookChapter`.`owner`","`tabBookChapter`.`creation`","`tabBookChapter`.`modified`","`tabBookChapter`.`modified_by`","`tabBookChapter`.`_user_tags`","`tabBookChapter`.`_comments`","`tabBookChapter`.`_assign`","`tabBookChapter`.`_liked_by`","`tabBookChapter`.`docstatus`","`tabBookChapter`.`idx`","`tabBookChapter`.`titulo`"]', 'filters': '[]', 'order_by': '`tabBookChapter`.creation desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2025-06-24 23:06:37,929 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'fields': '["name","filter_name","for_user","filters"]', 'filters': '{"reference_doctype":"BookChapter"}', 'or_filters': '[["for_user","=","Administrator"],["for_user","=",""]]', 'order_by': 'filter_name asc', 'doctype': 'List Filter', 'limit': '20', 'cmd': 'frappe.desk.reportview.get_list'}
+2025-06-24 23:09:13,276 ERROR frappe New Exception collected in error log
+Site: book.site
+Form Dict: {'project_name': 'hfhffgg', 'title': 'sdfvdsfd', 'order': '1', 'content': 'fdsfdsfs', 'cmd': 'libre.api.create_chapter'}
