@@ -110,19 +110,19 @@ Siga os passos abaixo para configurar e executar o LibreBook em seu ambiente loc
     cd apps/libre
     yarn install ou npm install
     ```
-5.  **Criar um Novo Site Frappe (ou usar um existente)**:
+4.  **Criar um Novo Site Frappe (ou usar um existente)**:
     ```bash
     bench new-site book.site
     ```
-6.  **Instalar o Aplicativo no Site (caso o aplicativo ainda não estiver instalado)**:
+5.  **Instalar o Aplicativo no Site (caso o aplicativo ainda não estiver instalado)**:
     ```bash
     bench --site book.site install-app libre
     ```
-7.  **Sincronizar DocTypes e Migrar Banco de Dados**:
+6.  **Sincronizar DocTypes e Migrar Banco de Dados**:
     ```bash
     bench --site book.site migrate
     ```
-8.  **Iniciar o Servidor de Desenvolvimento**:
+7.  **Iniciar o Servidor de Desenvolvimento**:
     ```bash
     bench start
     ```
