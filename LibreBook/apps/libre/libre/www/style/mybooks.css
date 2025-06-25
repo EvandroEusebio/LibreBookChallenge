@@ -1,0 +1,101 @@
+/* Custom styles for the project list */
+.frappe-project-list-container {
+	max-width: 900px; /* Limit width for better readability */
+	margin: 40px auto; /* Center the container */
+	padding: 0 15px; /* Add some padding on smaller screens */
+}
+
+.list-group-item {
+	background-color: var(--card-bg); /* Frappe card background */
+	border: 1px solid var(--border-color); /* Frappe border color */
+	border-radius: var(--border-radius);
+	margin-bottom: 15px;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* Space out content vertically */
+}
+
+.list-group-item:hover {
+	transform: translateY(-5px);
+	box-shadow: var(--shadow-md); /* Subtle shadow on hover */
+	text-decoration: none; /* Remove underline from link on hover */
+}
+
+.list-group-item .d-flex {
+	margin-bottom: 10px;
+	flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.list-group-item h5 {
+	font-size: 1.35em;
+	font-weight: 600;
+	color: var(--text-color);
+	margin-bottom: 0;
+	flex-grow: 1; /* Allow title to take most space */
+}
+
+.list-group-item .project-meta-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%; /* Ensure meta spans full width */
+	margin-bottom: 10px;
+}
+
+.list-group-item .project-meta-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end; /* Align author to bottom if description wraps */
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid var(--light-border-color); /* Light separator */
+}
+
+.list-group-item .description {
+	color: var(--text-muted);
+	font-size: 0.9em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	flex-grow: 1; /* Allow description to take space */
+}
+
+.list-group-item .small-text {
+	font-size: 0.8em;
+	color: var(--text-light);
+}
+
+.no-projects-message {
+	text-align: center;
+	padding: 60px 20px;
+	color: var(--text-muted);
+	font-size: 1.2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.frappe-project-list-container {
+		margin: 20px auto;
+	}
+
+	.list-group-item {
+		padding: 15px;
+	}
+
+	.list-group-item h5 {
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+
+	.list-group-item .project-meta-top,
+	.list-group-item .project-meta-bottom {
+		flex-direction: column; /* Stack meta info on small screens */
+		align-items: flex-start;
+	}
+
+	.list-group-item .small-text {
+		margin-top: 5px; /* Add spacing when stacked */
+	}
+}

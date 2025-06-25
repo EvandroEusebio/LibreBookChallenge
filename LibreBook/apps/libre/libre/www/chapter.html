@@ -1,0 +1,119 @@
+{% extends "templates/web.html" %}
+
+{% block header %}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/chapter.css">
+{% endblock %}
+
+{% block page_content %}
+<div class="book-detail-wrapper">
+    <a href="/mybooks" class="back-link">&larr; Voltar para Meus Projetos</a>
+
+    <div class="book-header">
+        {# Usando 'project' e seus campos, conforme o get_context #}
+        <h1>{{ project.titulo }}</h1>
+        <p class="book-description">{{ project.descricao }}</p>
+        <p class="book-meta">
+            Autor: **{{ project.autor }}** |
+            Criado em: {{ frappe.utils.formatdate(project.data_de_criacao, "DD/MM/YYYY") }} |
+            Status: {{ project.status.capitalize() }}
+        </p>
+    </div>
+
+    {% if chapters %}
+        <div class="chapters-main-content">
+            <div class="chapter-content-area">
+                {% for chapter in chapters %}
+                    {# Use 'chapter.name' para o ID único do bloco do capítulo #}
+                    <div class="chapter-block" id="chapter-{{ chapter.name }}">
+                        {# Título do capítulo no conteúdo principal #}
+                        <h2>{{ chapter.ordem }}. {{ chapter.titulo }}</h2>
+                        <div class="chapter-body">
+                            {# Renderiza o conteúdo Markdown pré-renderizado e marca como 'safe' #}
+                            {{ chapter.conteudo | safe }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <div class="no-chapters-message">
+            <p>Este projeto ainda não possui capítulos.</p>
+            <p>Você pode adicionar capítulos através do <a href="/create_chapter?project_name={{project.titulo}}">Criar capítulo</a>.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    $(document).ready(function() {
+        // Função para atualizar o destaque da navegação
+        function updateActiveChapterNav() {
+            var scrollPos = $(document).scrollTop();
+            // Ajuste para considerar o cabeçalho do livro e margens, simulando a barra superior do Medium
+            var headerOffset = $('.book-header').outerHeight(true) + 40; // Altura do cabeçalho + margem do wrapper
+            var activeFound = false;
+
+            $('.chapter-block').each(function() {
+                var currentChapter = $(this);
+                // Calcula a posição do topo do capítulo na tela
+                var chapterTop = currentChapter.offset().top - headerOffset - 50; // Offset para ativar antes de chegar ao topo
+
+                // Verifica se a posição de rolagem está dentro do elemento do capítulo
+                if (scrollPos >= chapterTop && scrollPos < (chapterTop + currentChapter.outerHeight() + 100)) { // Adiciona um pouco de "folga" para a área inferior
+                    $('#chapter-navigation a').removeClass('active');
+                    $('#chapter-navigation a[href="#' + currentChapter.attr('id') + '"]').addClass('active');
+                    activeFound = true;
+                    
+                    // Scrolar a navegação para manter o item ativo visível
+                    var activeLink = $('#chapter-navigation a.active');
+                    if (activeLink.length) {
+                        var sidebar = $('.chapters-nav-sidebar');
+                        var linkTop = activeLink.position().top;
+                        var linkHeight = activeLink.outerHeight();
+                        var sidebarScrollTop = sidebar.scrollTop();
+                        var sidebarHeight = sidebar.height();
+
+                        // Verifica se o link ativo está fora da área visível da barra lateral
+                        if (linkTop < sidebarScrollTop || linkTop + linkHeight > sidebarScrollTop + sidebarHeight) {
+                            sidebar.animate({
+                                scrollTop: linkTop - (sidebarHeight / 2) + (linkHeight / 2) // Centraliza o link na view da sidebar
+                            }, 200);
+                        }
+                    }
+                    return false; // Sai do loop após encontrar o capítulo ativo
+                }
+            });
+
+            // Se nenhum capítulo estiver visível (e.g., rolou para o topo ou muito para baixo), desativa tudo
+            if (!activeFound) {
+                 $('#chapter-navigation a').removeClass('active');
+            }
+        }
+
+        // Smooth scroll para os capítulos na navegação
+        $('#chapter-navigation a').on('click', function(e) {
+            e.preventDefault();
+            var targetId = $(this).attr('href');
+            var headerOffset = $('.book-header').outerHeight(true) + 40; // Altura do cabeçalho + margem do wrapper
+            
+            // Verifica se o elemento alvo existe
+            if ($(targetId).length) {
+                $('html, body').animate({
+                    scrollTop: $(targetId).offset().top - headerOffset - 20 // Ajusta para ficar um pouco acima do topo
+                }, 600, function() {
+                    // Após a rolagem, atualiza o estado ativo da navegação
+                    updateActiveChapterNav();
+                });
+            }
+        });
+
+        // Atualizar a navegação ativa ao rolar a página
+        $(window).on('scroll', updateActiveChapterNav);
+
+        // Chamar no carregamento da página para definir o estado inicial (importante para recargas)
+        updateActiveChapterNav();
+    });
+</script>
+{% endblock %}

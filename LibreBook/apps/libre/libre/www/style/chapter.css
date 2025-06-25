@@ -1,0 +1,389 @@
+/* Variáveis de Cores e Tipografia (Estilo Medium) */
+:root {
+	--text-primary: #292929; /* Próximo ao preto, mas mais suave */
+	--text-secondary: #6b6b6b; /* Cinza para metadados e texto de apoio */
+	--background-body: #ffffff; /* Fundo muito claro */
+	--background-card: #ffffff; /* Fundo dos cards/conteúdo */
+	--border-color: #e6e6e6; /* Bordas suaves */
+	--accent-color: #1a8917; /* Verde do Medium para links e destaques */
+	--accent-dark: #126310; /* Verde mais escuro no hover */
+	--chapter-nav-bg: #ffffff; /* Fundo branco para a navegação */
+	--shadow-light: rgba(0, 0, 0, 0.05); /* Sombra mais leve */
+	--radius-base: 4px; /* Bordas levemente arredondadas */
+	--font-serif: "Lora", serif; /* Fonte serif para o corpo */
+	--font-serif-display: "Playfair Display", serif; /* Fonte serif para títulos maiores */
+	--font-sans-serif: "Open Sans", sans-serif; /* Fonte sans-serif para UI */
+}
+
+body {
+	font-family: var(--font-serif); /* Fonte para o corpo do texto */
+	color: var(--text-primary);
+	background-color: var(--background-body);
+	line-height: 1.7; /* Maior espaçamento entre linhas para leitura */
+}
+
+.book-detail-wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 1400px; /* Ainda mais largura para o layout geral */
+	margin: 40px auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.back-link {
+	display: inline-block;
+	margin-bottom: 30px;
+	color: var(--text-secondary); /* Link de voltar mais discreto */
+	text-decoration: none;
+	font-weight: 400;
+	font-family: var(--font-sans-serif);
+	font-size: 0.95em;
+	transition: color 0.2s ease-in-out;
+}
+.back-link:hover {
+	color: var(--text-primary);
+}
+
+/* Cabeçalho do Livro (Estilo Medium) */
+.book-header {
+	background-color: var(--background-card);
+	padding: 40px 0; /* Mais padding vertical, sem bordas ou sombra aqui */
+	margin-bottom: 40px;
+	text-align: center;
+}
+.book-header h1 {
+	font-family: var(--font-serif-display); /* Fonte de destaque para o título principal */
+	font-size: 3.5em; /* Título maior e impactante */
+	color: var(--text-primary);
+	margin-bottom: 15px;
+	line-height: 1.15;
+}
+.book-header .book-description {
+	font-family: var(--font-sans-serif);
+	font-size: 1.2em;
+	color: var(--text-secondary);
+	max-width: 800px;
+	margin: 0 auto 20px;
+}
+.book-header .book-meta {
+	font-family: var(--font-sans-serif);
+	font-size: 0.9em;
+	color: var(--text-secondary);
+	margin-top: 15px;
+}
+.book-header hr {
+	display: none; /* Remove a linha */
+}
+
+/* Layout Principal (Capítulos e Navegação) */
+.chapters-main-content {
+	display: flex;
+	flex-direction: row;
+	gap: 60px; /* Grande espaço entre nav e conteúdo */
+	justify-content: center; /* Centraliza as colunas */
+}
+
+.chapters-nav-sidebar {
+	flex: 0 0 280px; /* Largura fixa */
+	background-color: var(--chapter-nav-bg);
+	border-radius: var(--radius-base);
+	padding: 25px;
+	box-shadow: 0 2px 10px var(--shadow-light); /* Sombra mais sutil */
+	position: sticky;
+	top: 25px; /* Distância do topo */
+	align-self: flex-start;
+	max-height: calc(100vh - 50px);
+	overflow-y: auto;
+	font-family: var(--font-sans-serif);
+}
+
+.chapters-nav-sidebar h2 {
+	font-size: 1.4em;
+	color: var(--text-primary);
+	margin-top: 0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+
+.chapters-nav-sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.chapters-nav-sidebar li {
+	margin-bottom: 8px;
+}
+.chapters-nav-sidebar a {
+	display: block;
+	padding: 8px 12px;
+	text-decoration: none;
+	color: var(--text-secondary);
+	font-weight: 400;
+	border-radius: 3px;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.chapters-nav-sidebar a:hover {
+	background-color: #f0f0f0;
+	color: var(--text-primary);
+}
+.chapters-nav-sidebar a.active {
+	background-color: var(--accent-color);
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.chapter-content-area {
+	flex-grow: 1;
+	max-width: 740px; /* Largura de conteúdo otimizada para leitura */
+	background-color: var(--background-card);
+	padding: 60px 80px; /* Mais padding interno */
+	box-shadow: 0 2px 10px var(--shadow-light);
+	border-radius: var(--radius-base);
+}
+
+.chapter-block {
+	margin-bottom: 80px; /* Grande espaço entre os capítulos */
+	padding-bottom: 60px;
+	border-bottom: 1px dashed var(--border-color); /* Linha divisória discreta */
+}
+.chapter-block:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.chapter-block h2 {
+	/* Títulos de capítulo (Medium usa h1/h2 para isso) */
+	font-family: var(--font-serif-display);
+	font-size: 2.5em; /* Título do capítulo mais proeminente */
+	color: var(--text-primary);
+	margin-top: 0;
+	margin-bottom: 25px;
+	line-height: 1.2;
+}
+
+/* Estilos para o conteúdo Markdown (replicando Medium) */
+.chapter-body {
+	font-family: var(--font-serif);
+	font-size: 1.15em; /* Tamanho do texto base maior */
+	line-height: 1.8; /* Ótima legibilidade */
+	color: var(--text-primary);
+}
+.chapter-body h1,
+.chapter-body h2,
+.chapter-body h3,
+.chapter-body h4,
+.chapter-body h5,
+.chapter-body h6 {
+	font-family: var(--font-serif-display); /* Títulos dentro do conteúdo */
+	color: var(--text-primary);
+	margin-top: 2.8em; /* Mais espaço acima dos títulos */
+	margin-bottom: 1em;
+	line-height: 1.3;
+}
+.chapter-body h1 {
+	font-size: 2em;
+}
+.chapter-body h2 {
+	font-size: 1.8em;
+}
+.chapter-body h3 {
+	font-size: 1.5em;
+}
+.chapter-body h4 {
+	font-size: 1.2em;
+}
+.chapter-body p {
+	margin-bottom: 1.2em; /* Mais espaço entre parágrafos */
+}
+.chapter-body strong {
+	font-weight: 700;
+	color: var(--text-primary);
+}
+.chapter-body em {
+	font-style: italic;
+}
+.chapter-body a {
+	color: var(--accent-color);
+	text-decoration: none;
+	border-bottom: 1px solid var(--accent-color); /* Sublinhado no estilo Medium */
+	transition: color 0.2s, border-color 0.2s;
+}
+.chapter-body a:hover {
+	color: var(--accent-dark);
+	border-color: var(--accent-dark);
+}
+.chapter-body ul,
+.chapter-body ol {
+	margin-bottom: 1.5em;
+	padding-left: 28px;
+}
+.chapter-body li {
+	margin-bottom: 0.8em;
+}
+.chapter-body blockquote {
+	border-left: 4px solid var(--border-color);
+	padding-left: 20px;
+	margin: 2em 0;
+	color: var(--text-secondary);
+	font-style: italic;
+	font-size: 1.1em;
+}
+.chapter-body pre {
+	background-color: #f6f6f6; /* Fundo suave para código */
+	padding: 20px;
+	border-radius: var(--radius-base);
+	overflow-x: auto;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 0.9em;
+	line-height: 1.4;
+	white-space: pre-wrap;
+	word-break: break-word;
+	margin: 2em 0;
+}
+.chapter-body code {
+	background-color: #ededed; /* Fundo para código inline */
+	padding: 2px 6px;
+	border-radius: 3px;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 0.85em;
+}
+.chapter-body img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 2.5em auto; /* Mais espaçamento para imagens */
+	border-radius: var(--radius-base);
+	box-shadow: 0 4px 15px var(--shadow-light); /* Sombra sutil nas imagens */
+}
+.chapter-body table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 2em 0;
+}
+.chapter-body table th,
+.chapter-body table td {
+	border: 1px solid var(--border-color);
+	padding: 12px 18px;
+	text-align: left;
+}
+.chapter-body table th {
+	background-color: #f0f0f0;
+	font-weight: 600;
+	color: var(--text-primary);
+	font-family: var(--font-sans-serif);
+}
+
+/* Mensagem de Sem Capítulos */
+.no-chapters-message {
+	text-align: center;
+	padding: 80px 40px;
+	background-color: var(--background-card);
+	border-radius: var(--radius-base);
+	box-shadow: 0 4px 15px var(--shadow-light);
+	color: var(--text-secondary);
+	font-size: 1.3em;
+	font-family: var(--font-sans-serif);
+}
+.no-chapters-message a {
+	color: var(--accent-color);
+	text-decoration: none;
+	font-weight: 600;
+}
+.no-chapters-message a:hover {
+	color: var(--accent-dark);
+	text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+	.chapters-main-content {
+		flex-direction: column; /* Colunas empilhadas em telas menores */
+		gap: 40px;
+	}
+	.chapters-nav-sidebar {
+		position: static;
+		max-height: none;
+		overflow-y: visible;
+		width: 100%;
+		flex: none;
+		margin-bottom: 0; /* Removido para evitar espaçamento duplo */
+	}
+	.chapter-content-area {
+		padding: 40px 30px; /* Ajuste padding */
+	}
+	.book-header h1 {
+		font-size: 2.5em;
+	}
+	.chapter-block h2 {
+		font-size: 2em;
+	}
+	.chapter-body {
+		font-size: 1.05em;
+	}
+}
+
+@media (max-width: 768px) {
+	.book-detail-wrapper {
+		margin: 20px auto;
+		padding: 0 15px;
+	}
+	.book-header {
+		padding: 30px 0;
+	}
+	.book-header h1 {
+		font-size: 2em;
+	}
+	.book-header .book-description {
+		font-size: 1em;
+	}
+	.chapter-content-area {
+		padding: 30px 20px;
+	}
+	.chapter-block h2 {
+		font-size: 1.8em;
+	}
+	.chapter-body {
+		font-size: 1em;
+	}
+	.chapter-body h1,
+	.chapter-body h2,
+	.chapter-body h3,
+	.chapter-body h4,
+	.chapter-body h5,
+	.chapter-body h6 {
+		margin-top: 2em;
+	}
+	.chapter-body pre,
+	.chapter-body blockquote,
+	.chapter-body img {
+		margin: 1.5em 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.book-header h1 {
+		font-size: 1.8em;
+	}
+	.chapter-block h2 {
+		font-size: 1.5em;
+	}
+	.chapter-body {
+		line-height: 1.7;
+	}
+	.chapter-body h1 {
+		font-size: 1.8em;
+	}
+	.chapter-body h2 {
+		font-size: 1.5em;
+	}
+	.chapter-body h3 {
+		font-size: 1.3em;
+	}
+	.chapter-body h4 {
+		font-size: 1.1em;
+	}
+}

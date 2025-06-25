@@ -1,0 +1,30 @@
+[
+  {
+    "from_route": "/mybooks",
+    "to_route": "mybooks",
+    "module": "libre",
+    "page": "mybooks",
+    "restricted": true
+  },
+  {
+    "from_route": "/chapter/:project_name",
+    "to_route": "chapter",
+    "module": "libre",
+    "page": "chapter",
+    "restricted": true
+  },
+  {
+    "from_route": "/create_chapter/:project_name",
+    "to_route": "create_chapter",
+    "module": "libre",
+    "page": "create_chapter",
+    "restricted": true
+  },
+   {
+    "from_route": "/add-book",
+    "to_route": "add_book",
+    "module": "libre",
+    "page": "add_book",
+    "restricted": true
+  }
+]

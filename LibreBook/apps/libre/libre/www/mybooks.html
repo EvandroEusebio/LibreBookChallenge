@@ -1,0 +1,33 @@
+{% extends "templates/web.html" %}
+
+{% block header %}
+<link rel="stylesheet" href="style/mybooks.css">
+{% endblock %}
+
+{% block page_content %}
+<div class="frappe-project-list-container">
+    <h2 class="mb-4 text-center">📚 Meus Projetos</h2>
+
+    <div class="list-group">
+        {% if projects %}
+            {% for book in projects %}
+            <a href="/chapter?project_name={{ book.titulo | urlencode }}" class="list-group-item list-group-item-action">
+                <div class="project-meta-top">
+                    <h5 class="mb-0">{{ book.titulo }}</h5>
+                    <small class="small-text">Data: {{ book.data_de_criacao.strftime('%d/%m/%Y') if book.data_de_criacao else 'N/A' }}</small>
+                </div>
+                <p class="description">{{ book.descricao | truncate(200, True, '...') }}</p> {# Truncate description #}
+                <div class="project-meta-bottom">
+                    <small class="small-text">Autor: **{{ book.autor or "Desconhecido" }}**</small>
+                    <span class="badge {{ 'badge-success' if book.status == 'publicado' else 'badge-warning' }}">{{ book.status.capitalize() }}</span>
+                </div>
+            </a>
+            {% endfor %}
+        {% else %}
+            <div class="no-projects-message">
+                <p>Nenhum projeto encontrado. Que tal adicionar um novo?</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

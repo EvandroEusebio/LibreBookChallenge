@@ -1,0 +1,45 @@
+{% extends "templates/web.html" %}
+
+{% block header %}
+<link rel="stylesheet" href="style/addbook.css">
+{% endblock %}
+
+{% block page_content %}
+<div class="form-wrapper">
+    <h1>Adicionar Novo Livro</h1>
+
+    <div id="form-messages" class="alert" style="display: none;"></div>
+
+    <form id="addBookForm">
+        <div class="form-group">
+            <label for="title">Título do Livro</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Descrição</label>
+            <textarea id="description" name="description" rows="5"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="status">Status</label>
+            <select id="status" name="status">
+                <option value="rascunho" selected>Rascunho</option>
+                <option value="publicado">Publicado</option>
+            </select>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-submit">Criar Livro</button>
+        </div>
+    </form>
+
+    <div style="text-align: center;">
+        <a href="/mybooks" class="back-link">&larr; Voltar para Meus Projetos</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="scripts/addbook.js"></script>
+{% endblock %}
