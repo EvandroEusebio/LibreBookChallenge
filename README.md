@@ -80,6 +80,17 @@ LibreBook expõe uma API REST robusta e segura para permitir que ferramentas ext
 
 ## 📦 Como Instalar e Testar Localmente
 
+✅ 1. Requisitos
+Antes de tudo, certifique-se de que tem:
+Python 3.10+
+Node.js (>= 16)
+Yarn
+Redis
+MariaDB
+Git
+
+pode acessar este link para os pré-requisitos: https://docs.frappe.io/framework/user/en/installation 
+
 Siga os passos abaixo para configurar e executar o LibreBook em seu ambiente local:
 
 1.  **Pré-requisitos**: Certifique-se de ter o `bench` do Frappe Framework configurado.
