@@ -102,22 +102,19 @@ Siga os passos abaixo para configurar e executar o LibreBook em seu ambiente loc
     git clone https://github.com/EvandroEusebio/LibreBookChallenge.git 
     cd LibreBookChallenge/librebook
     ```
-3.  **Configurar o Bench (se ainda não o fez)**:
+
+3.  **Instalar as dependencias node para os apps**:
     ```bash
-    bench init frappe-bench
-    cd frappe-bench
-    bench new-app libre # Se o seu app não for 'libre'
+    cd apps/frapper
+    yarn install ou npm install
+    cd apps/libre
+    yarn install ou npm install
     ```
-4.  **Adicionar o Aplicativo ao Bench**:
-    ```bash
-    bench get-app libre <URL_DO_SEU_REPOSITORIO>
-    ```
-    *(Se você já clonou o app manualmente, use `bench get-app --no-pull libre ../librebook_app`)*
 5.  **Criar um Novo Site Frappe (ou usar um existente)**:
     ```bash
     bench new-site book.site
     ```
-6.  **Instalar o Aplicativo no Site**:
+6.  **Instalar o Aplicativo no Site (caso o aplicativo ainda não estiver instalado)**:
     ```bash
     bench --site book.site install-app libre
     ```
