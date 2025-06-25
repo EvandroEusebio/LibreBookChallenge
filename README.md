@@ -11,8 +11,7 @@ A plataforma LibreBook oferece as seguintes capacidades para seus usuários:
 * **Autenticação e Login**: Utiliza o sistema de autenticação padrão do Frappe para acesso seguro.
 * **Gestão de Projetos**: Os usuários podem listar, visualizar e gerenciar todos os seus `BookProject`s.
 * **Visualização Detalhada**: Cada `BookProject` pode ser visualizado em detalhes, exibindo todos os capítulos associados.
-* **Edição de Capítulos**: Suporte completo para edição do conteúdo dos capítulos com um editor **Markdown**, permitindo formatação rica e eficiente.
-* **Visualização Pública/Protegida do Livro**: Páginas dedicadas para uma visualização limpa e focada do conteúdo completo do livro, com controle de acesso conforme o status do projeto.
+* **Visualização Protegida do Livro**: Páginas dedicadas para uma visualização limpa e focada do conteúdo completo do livro, com controle de acesso conforme o status do projeto.
 * **Controle de Acesso por Usuário**: Garantia de que cada usuário só pode acessar e gerenciar seus próprios `BookProject`s e `BookChapter`s.
 
 ## 📁 Estrutura de Dados (DocTypes)
@@ -30,23 +29,19 @@ A arquitetura de dados do LibreBook é centrada em dois DocTypes principais:
     * `Referência ao projeto` (`BookProject`): Um campo de link para o `BookProject` ao qual este capítulo pertence.
     * `Título do capítulo`: Nome do capítulo.
     * `Ordem`: Número ou índice para definir a sequência dos capítulos dentro do livro.
-    * `Conteúdo`: O texto completo do capítulo, formatado em **Markdown**.
+    * `Conteúdo`: O texto completo do capítulo
 
 ## 🎨 Design e Layout Personalizado
 
-A interface do usuário do LibreBook foi cuidadosamente projetada para oferecer uma experiência de leitura e edição superior:
-
 * **CSS Próprio**: Utilizamos arquivos `.css` personalizados e estilos em templates Jinja para ir além do visual padrão do Frappe Desk.
-* **Estilo Limpo e Agradável**: Foco em boa tipografia, espaçamentos adequados e uma paleta de cores suaves (com suporte a tema claro/escuro, se implementado), garantindo legibilidade e conforto visual.
-* **Navegação Clara**: Implementação de elementos de navegação intuitivos (menus, botões de voltar, lista de capítulos) para facilitar a movimentação pela aplicação e dentro dos projetos.
 
 ## 🔗 API REST para Integração Externa
 
 LibreBook expõe uma API REST robusta e segura para permitir que ferramentas externas acessem os dados completos de um projeto.
 
-* **Endpoint**: `/api/method/libre.libre_app.api.get_full_book`
+* **Endpoint**: `/api/method/libre.api.get_full_book`
 * **Método**: `GET`
-* **Parâmetro de Consulta**: `project_name` (o nome/ID do `BookProject` desejado)
+* **Parâmetro de Consulta**: `project_name` (o nome do `BookProject` desejado)
 * **Formato de Retorno**: JSON contendo os detalhes do projeto e uma lista completa de seus capítulos.
 
     ```json
@@ -80,18 +75,18 @@ LibreBook expõe uma API REST robusta e segura para permitir que ferramentas ext
 
 * **Framework**: Frappe Framework (v13+ ou v14)
 * **Frontend**: Jinja (Web Templates), Web Views
-* **CSS**: Customizado manualmente (implementado nos templates e/ou arquivos `public/css`)
+* **CSS**: Customizado manualmente
 * **Banco de Dados**: MariaDB (padrão do Frappe)
 
 ## 📦 Como Instalar e Testar Localmente
 
 Siga os passos abaixo para configurar e executar o LibreBook em seu ambiente local:
 
-1.  **Pré-requisitos**: Certifique-se de ter o `bench` do Frappe Framework configurado. Você pode usar o `frappe_docker` para uma configuração rápida.
+1.  **Pré-requisitos**: Certifique-se de ter o `bench` do Frappe Framework configurado.
 2.  **Clonar o Repositório**:
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO> librebook_app
-    cd librebook_app
+    git clone https://github.com/EvandroEusebio/LibreBookChallenge.git 
+    cd LibreBookChallenge/librebook
     ```
 3.  **Configurar o Bench (se ainda não o fez)**:
     ```bash
@@ -120,19 +115,17 @@ Siga os passos abaixo para configurar e executar o LibreBook em seu ambiente loc
     ```bash
     bench start
     ```
-    Acesse a aplicação em `http://book.site:8000` (ou a porta que o `bench start` indicar).
+    Acesse a aplicação em `http://book.site:8080` (ou a porta que o `bench start` indicar).
 
 ## 📸 Demonstração
 
-*(Nesta seção, você deve incluir print screens ou links para um vídeo demonstrando as funcionalidades do LibreBook)*
-
-* **Captura de Tela 1**: Página inicial/listagem de projetos.
+* **Captura de Tela 1**: Página inicial
+![Captura de Tela do Projeto](screens/screencapture-book-site-8080-2025-06-25-02_17_45.png)
 * **Captura de Tela 2**: Visualização de um projeto e seus capítulos.
+![Captura de Tela do Projeto](screens/screencapture-book-site-8080-chapter-2025-06-25-02_19_14.png)
 * **Captura de Tela 3**: Formulário de adição/edição de capítulo com Markdown.
-* **Vídeo Demo**: [Link para um vídeo no YouTube ou Loom (opcional)]
+![Captura de Tela do Projeto](screens/screencapture-book-site-8080-addbook-2025-06-25-02_19_46.png)
+* **Captura de Tela 2**: Visualização de um projeto
+![Captura de Tela do Projeto](screens/screencapture-book-site-8080-mybooks-2025-06-25-02_18_18.png)
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
----
+## 🤝 OBRIGADO
